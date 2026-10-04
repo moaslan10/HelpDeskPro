@@ -1,0 +1,22 @@
+services:
+  backend:
+    build: ./backend/HelpDeskPro.Api
+    ports:
+      - "5001:8080"
+    volumes:
+      - helpdesk_data:/app
+      - helpdesk_uploads:/app/uploads
+    restart: unless-stopped
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL: /api
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+volumes:
+  helpdesk_data:
+  helpdesk_uploads:
