@@ -47,7 +47,10 @@ dotnet test .\backend\HelpDeskPro.Api.Tests
 ## SMTP
 Set `Email:Enabled` to true and configure Host, Port, Username, Password, From and EnableSsl in `backend/HelpDeskPro.Api/appsettings.json` or environment variables.
 
-## Demo accounts
-- admin@helpdeskpro.com / 123456
-- support@helpdeskpro.com / 123456
-- employee@helpdeskpro.com / 123456
+## Demo Accounts
+
+- Admin — admin@helpdeskpro.com
+- Support — support@helpdeskpro.com
+- Employee — employee@helpdeskpro.com
+
+> Demo credentials are available for local testing only.
