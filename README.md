@@ -2,6 +2,20 @@
 
 Full-stack IT Support / Ticketing System built with React + Vite and ASP.NET Core 8 + EF Core + SQLite.
 
+## 📸 Screenshots
+
+### Dashboard
+
+<img src="images/dashboard.png" alt="HelpDeskPro Dashboard" width="100%"/>
+
+### Ticket Management
+
+<img src="images/tickets.png" alt="HelpDeskPro Tickets" width="100%"/>
+
+### Ticket Details & Workflow
+
+<img src="images/ticket-details.png" alt="HelpDeskPro Ticket Details" width="100%"/>
+
 ## Included
 - JWT authentication + Admin / Support / Employee roles
 - Tickets with workflow, SLA, tags, comments, attachments and ratings
